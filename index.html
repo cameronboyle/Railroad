@@ -1,0 +1,52 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <title>Foundation | Welcome</title>
+    
+    
+    
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    
+  </head>
+  <body>
+ 
+    <div class="row">
+      <div class="large-12 columns">
+      	<div class="logo"></div>
+      </div>
+    </div>
+    
+    <div id="container " class="container">
+		<ul id="scene" class="scene">
+			<li class="layer" data-depth="0.0"><img src="images/background.jpg"></li>
+			<li class="layer" data-depth="0.02"><img src="images/shorthand.png"></li>
+			<li class="layer" data-depth="0.05"><img src="images/glow.png"></li>
+			<li class="layer" data-depth="0.10"><img src="images/signature.png"></li>
+			<li class="layer" data-depth="0.12"><img src="images/title.png"></li>
+			<li class="layer" data-depth="0.15"><img src="images/jim.png"></li>
+		</ul>
+	</div>
+	
+	
+		
+		<div class="flex-video">
+		<iframe width="1920" height="1080" src="http://www.youtube.com/embed/NX1ZqEWtu0?vq=hd1080&cc_load_policy=1&rel=0&showinfo=0&start=1:10" frameborder="0"></iframe>
+	
+		</div>
+	
+	
+  
+    <!-- Scripts -->
+    <script src="js/vendor/modernizr.js"></script>
+	<script src="js/parallax.js"></script>
+	<script>var scene = document.getElementById('scene');	var parallax = new Parallax(scene);	</script>    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>    $(document).foundation();     </script>
+  </body>
+</html>

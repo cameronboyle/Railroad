@@ -1,0 +1,124 @@
+body {
+
+  font-family: "garamond-premier-pro" serif;
+  font-size: 18px;
+  background: #000;
+  color: #666;
+  margin: 0;
+}
+
+h1 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+
+.logo {
+	background: url(logo.png);
+	width: 594px;
+	height: 28px;
+	margin: 0 auto;
+	margin-top: 350px;
+		margin-bottom: 550px;
+}
+
+.header {
+	height: 150px;
+	background: black;
+	margin: 0;
+	color: white;
+	text-align: center;
+	
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  margin-right: 1em;
+  padding: 0.4em 0;
+  cursor: pointer;
+}
+
+button {
+  border: 10px solid #00FFAA;
+  font-family: monospace;
+  position: absolute;
+  line-height: 60px;
+  text-align: right;
+  padding: 0 1.2em;
+  background: #444;
+  font-size: 24px;
+  cursor: pointer;
+  display: block;
+  outline: none;
+  height: 80px;
+  width: 80%;
+  top: 260px;
+  margin: 0;
+  left: 10%;
+}
+
+button:hover {
+  background: #00FFAA;
+}
+
+input[type=checkbox] + label:before {
+  display: inline-block;
+  position: relative;
+  background: #444;
+  margin-right: 8px;
+  content: "";
+  height: 16px;
+  width: 16px;
+  top: 1px;
+}
+
+input[type=checkbox]:checked + label:before {
+  background: #00FFAA;
+}
+
+.container {
+  position: relative;
+  max-width: 100;
+  margin: 0 auto;
+  
+}
+
+.scene {
+  padding: 0;
+  margin: 0;
+  
+}
+
+.fill {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  left: 5%;
+  top: 5%;
+}
+
+.expand-width {
+  width: 100%;
+}
+
+.border {
+  border: 2px dashed #00FFAA;
+}
+
+.aspect {
+  opacity: 0.2;
+}
+
+.arrival {
+	height: 750px !important;
+	display: block;
+}
